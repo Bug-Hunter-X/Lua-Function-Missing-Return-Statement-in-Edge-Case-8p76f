@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Lua: a missing return statement in a function. The `myFunction` does not handle the case where `a` and `b` are equal, resulting in an implicit return of `nil`. This can lead to unexpected behavior or runtime errors in the calling code.  The solution demonstrates adding a return statement to handle the equal case.
